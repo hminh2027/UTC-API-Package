@@ -1,12 +1,12 @@
 <div id="top"></div>
-<!-- PROJECT LOGO -->
 <br />
+
 # UTC Schedule APIs
 An awesome API to work with timetable of students studying in UTC!
 
 This is a NodeJS library with Javascript support NodeJS Server
 
-
+<br />
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -18,8 +18,8 @@ This is a NodeJS library with Javascript support NodeJS Server
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
+        <li><a href="#prerequisites">Prerequisites</a></li>
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
@@ -44,12 +44,11 @@ This is a NodeJS library with Javascript support NodeJS Server
 
 ### Installation
 
-* npm
-  ```sh
-  npm install utc-schedule-api
-  ```
+```sh
+npm install utc-schedule-api
+```
 
-
+</br>
 
 ### Prerequisites
 
