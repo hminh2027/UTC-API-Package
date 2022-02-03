@@ -44,12 +44,11 @@ This is a NodeJS library with Javascript support NodeJS Server
 
 ### Installation
 
-* npm
-  ```sh
-  npm install utc-schedule-api
-  ```
+```sh
+npm install utc-schedule-api
+```
 
-
+</br>
 
 ### Prerequisites
 
