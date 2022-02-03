@@ -1,17 +1,10 @@
 <div id="top"></div>
 <!-- PROJECT LOGO -->
 <br />
-<div align="center">
-  <a href="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/LogoUTC.jpg/1200px-LogoUTC.jpg">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
+# UTC Schedule APIs
+An awesome API to work with timetable of students studying in UTC!
 
-  <h3 align="center">UTC Schedule APIs</h3>
-
-  <p align="center">
-    An awesome API to work with timetable of students studying in UTC!
-  </p>
-</div>
+This is a NodeJS library with Javascript support NodeJS Server
 
 
 
@@ -74,6 +67,7 @@ const api = require('utc-schedule-api')
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
+
 <!-- USAGE EXAMPLES -->
 ## Usage
 
@@ -86,6 +80,7 @@ await getAllSchedule(username, password)
 ```
 
 
+
 ### 2. Get Schedule of today
 
 Get the subjects and time periods of student today
@@ -93,6 +88,7 @@ Get the subjects and time periods of student today
 ```javascript
 await getScheduleOfToday(username, password)
 ```
+
 
 ### 3. Get Schedule of day
 
