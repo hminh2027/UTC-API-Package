@@ -51,7 +51,6 @@ npm install utc-schedule-api
 </br>
 
 ### Prerequisites
-
 ```javascript
 const { getAllSchedule, getScheduleOfToday, getScheduleOfDay } = require('utc-schedule-api')
 ```
