@@ -1,8 +1,8 @@
 <div id="top"></div>
 <br />
 
-# UTC Schedule APIs
-An awesome API to work with timetable of students studying in UTC!
+# UTC APIs
+An awesome API to work with students's information studying in UTC!
 
 This is a NodeJS library with Javascript support NodeJS Server
 
@@ -32,7 +32,7 @@ This is a NodeJS library with Javascript support NodeJS Server
 <!-- ABOUT THE PROJECT -->
 ### Built With
 
-* [Axios](https://www.npmjs.com/package/axios)
+* [ExpressJs](https://expressjs.com/)
 * [Javascript](https://www.javascript.com/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -45,20 +45,21 @@ This is a NodeJS library with Javascript support NodeJS Server
 ### Installation
 
 ```sh
-npm install utc-schedule-api
+npm install the-utc-api
 ```
 
 </br>
 
 ### Prerequisites
+
 ```javascript
-const { getAllSchedule, getScheduleOfToday, getScheduleOfDay } = require('utc-schedule-api')
+const { getAllSchedule, getScheduleOfToday, getScheduleOfDay, getMarks, getGPA, getStudent, getTuition, getPaidTuition, getTuitionDebt } = require('utc-schedule-api')
 ```
 
 or
 
 ```javascript
-const api = require('utc-schedule-api')
+const api = require('the-utc-api')
 ```
 
 
@@ -69,35 +70,82 @@ const api = require('utc-schedule-api')
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-### 1. Get all schedule
+### 1. Schedule
+</br>
 
-Get all the subjects and time periods of student on UTC's website 
+* Get all the subjects and time periods of student
 
 ```javascript
 await getAllSchedule(username, password)
 ```
 
 
-
-### 2. Get Schedule of today
-
-Get the subjects and time periods of student today
+* Get the subjects and time periods of student today
 
 ```javascript
 await getScheduleOfToday(username, password)
 ```
 
 
-### 3. Get Schedule of day
-
-Get the subjects and time periods of student on specific day
+* Get the subjects and time periods of student on specific day
 
 ```javascript
 await getScheduleOfDay(username, password, new Date(year, month, day))
 ```
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+</br>
 
+### 2. Mark
+</br>
+
+* Get all the marks of the student
+
+```javascript
+await getMarks(username, password, grade)
+```
+
+
+* Get the GPA of the student (at specific year)
+
+```javascript
+await getGPA(username, password, year)
+```
+
+</br>
+
+### 3. Student Profile
+</br>
+
+* Get all personal information of the student
+
+```javascript
+await getStudent(username, password)
+```
+
+</br>
+
+### 4. Tuition
+</br>
+
+* Get all the tuition detail of the student
+
+```javascript
+await getTuition(username, password)
+```
+
+* Get all the paid tuition of the student
+
+```javascript
+await getPaidTuition(username, password)
+```
+* Get all the tuition debt of the student
+
+```javascript
+await getTuitionDebt(username, password)
+```
+</br>
+
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 
 <!-- CONTACT -->
@@ -105,6 +153,6 @@ await getScheduleOfDay(username, password, new Date(year, month, day))
 
 Vu Hoang Minh - [Facebook](https://www.facebook.com/swag.lauch) - dackheros@gmail.com
 
-Project Link: [UTC-Schedule-API](https://github.com/hminh2027/UTC-Schedule-API-Package)
+Project Link: [UTC-API](https://github.com/hminh2027/UTC-API-Package)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
