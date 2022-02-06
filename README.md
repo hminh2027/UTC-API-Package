@@ -71,6 +71,7 @@ const api = require('the-utc-api')
 ## Usage
 
 ### 1. Schedule
+</br>
 
 * Get all the subjects and time periods of student
 
@@ -92,8 +93,10 @@ await getScheduleOfToday(username, password)
 await getScheduleOfDay(username, password, new Date(year, month, day))
 ```
 
+</br>
 
 ### 2. Mark
+</br>
 
 * Get all the marks of the student
 
@@ -108,8 +111,10 @@ await getMarks(username, password, grade)
 await getGPA(username, password, year)
 ```
 
+</br>
 
 ### 3. Student Profile
+</br>
 
 * Get all personal information of the student
 
@@ -117,8 +122,10 @@ await getGPA(username, password, year)
 await getStudent(username, password)
 ```
 
+</br>
 
 ### 4. Tuition
+</br>
 
 * Get all the tuition detail of the student
 
@@ -136,6 +143,7 @@ await getPaidTuition(username, password)
 ```javascript
 await getTuitionDebt(username, password)
 ```
+</br>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
