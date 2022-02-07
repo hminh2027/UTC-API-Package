@@ -98,14 +98,14 @@ await getScheduleOfDay(username, password, new Date(year, month, day))
 ### 2. Mark
 </br>
 
-* Get all the marks of the student
+* Get all the marks of the student (can get at specific grade)
 
 ```javascript
 await getMarks(username, password, grade)
 ```
 
 
-* Get the GPA of the student (at specific year)
+* Get the GPA of the student (can get in specific year)
 
 ```javascript
 await getGPA(username, password, year)
